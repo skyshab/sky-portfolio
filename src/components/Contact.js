@@ -3,13 +3,13 @@ import React from 'react';
 const Contact = () => {
     return (
         <section className='bg-gray-800' id='contact'>
-            <div className='container py-8 md:py-10 text-white'>
-                <h2 className='text-4xl md:text-5xl mb-8 leading-none'>
+            <div className='container py-8 md:py-10'>
+                <h2 className='text-4xl md:text-5xl mb-8 leading-none text-white'>
                     Hire Me
                 </h2>
 
                 <div className='flex flex-col md:flex-row'>
-                    <div className='bg-gray-700 p-8 w-full md:w-1/2 mr-8 mb-8 md:mr-10 md:mb-10'>
+                    <div className='bg-gray-700 p-8 w-full md:w-1/2 mr-8 mb-8 md:mr-10 md:mb-10 text-white'>
                         <h3 className='text-3xl leading-none mb-4'>
                             Project Based
                         </h3>
@@ -21,7 +21,7 @@ const Contact = () => {
                         </p>
                     </div>
 
-                    <div className='bg-gray-700 p-8 w-full md:w-1/2 mb-8 md:mb-10'>
+                    <div className='bg-gray-700 p-8 w-full md:w-1/2 mb-8 md:mb-10 text-white'>
                         <h3 className='text-3xl leading-none mb-4'>
                             Full Time
                         </h3>
