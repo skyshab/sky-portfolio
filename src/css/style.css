@@ -1,0 +1,114 @@
+/* purgecss start ignore */
+@tailwind base;
+
+/* global typography */
+
+:root {
+    --typography--font-size: 16px;
+    --typography--line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --typography--font-size: 18px;
+        --typography--line-height: 1.6;
+    }
+}
+
+body {
+    font-size: var(--typography--font-size);
+    line-height: var(--typography--line-height);
+}
+
+a {
+    @apply text-primary;
+}
+
+/* custom utilities */
+
+.max-w-200 {
+    max-width: 200px;
+}
+
+.max-w-600 {
+    max-width: 600px;
+}
+
+.max-w-half {
+    max-width: 50%;
+}
+
+/* gatsby image styles */
+
+/* .image-wrapper .gatsby-resp-image-wrapper {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.image-wrapper.alignleft .gatsby-resp-image-wrapper {
+    float: left;
+    margin-right: 2rem !important;
+}
+
+.image-wrapper.alignright .gatsby-resp-image-wrapper {
+    float: right;
+    margin-left: 2rem !important;
+} */
+
+/* Hero */
+
+.heroImage,
+.heroOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Project section image hover effects */
+
+.project-image {
+    position: relative;
+}
+
+.project-image:before {
+    content: 'Click to view';
+    color: white;
+    text-align: center;
+    width: 78%;
+    height: 82%;
+    background: #1c1d1e;
+    position: absolute;
+    bottom: 13%;
+    left: 11%;
+    z-index: 2;
+    font-size: 1.6rem;
+    padding-top: 20%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.project-image:hover:before {
+    opacity: 1;
+}
+
+/* Single project content */
+
+.page-content p {
+    margin-bottom: calc(1rem * var(--typography--line-height));
+}
+
+.page-content h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
