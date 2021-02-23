@@ -43,15 +43,11 @@ const Header = () => {
                     <Img fixed={data.sky.childImageSharp.fixed} />
                 </div>
                 <div className='heroContent text-white'>
-                    <h1 className='text-center md:text-left m-0 text-4xl md:text-6xl'>
+                    <h1 className='text-center md:text-left m-0 mb-1 text-4xl md:text-6xl leading-none'>
                         Sky Shabatura
                     </h1>
                     <p className='md:text-xl'>
-                        I am a web developer with over a decade of experience in
-                        web development, site maintenance, product support and
-                        user training. I develop custom WordPress and Javascript
-                        solutions to provide functionality that meets the unique
-                        needs of a website and its users.
+                        I have over a decade of experience in web development, site maintenance, product support and user training. I develop custom WordPress and Javascript solutions to meet the unique needs of a website and its users.
                     </p>
                 </div>
             </div>

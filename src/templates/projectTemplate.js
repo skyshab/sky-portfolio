@@ -26,7 +26,7 @@ const Template = ({ data, pageContext }) => {
 
     // don't show featured image in gallery
     const images = allImages.filter(
-        (image) => image.caption !== 'featured.png'
+        (image) => image.caption !== 'featured.jpg' && image.caption !== 'featured.png'
     );
 
     // Override some of Lightbox options to localise labels in French

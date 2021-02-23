@@ -5,7 +5,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 function ProjectsNew() {
     const data = useStaticQuery(graphql`
         query {
-            supplypike: file(relativePath: { eq: "supplypike/featured.png" }) {
+            supplypike: file(relativePath: { eq: "supplypike/featured.jpg" }) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
@@ -14,7 +14,7 @@ function ProjectsNew() {
             }
             apa: file(
                 relativePath: {
-                    eq: "american-poolplayers-association/featured.png"
+                    eq: "american-poolplayers-association/featured.jpg"
                 }
             ) {
                 childImageSharp {
@@ -24,7 +24,7 @@ function ProjectsNew() {
                 }
             }
             uofa: file(
-                relativePath: { eq: "university-of-arkansas/featured.png" }
+                relativePath: { eq: "university-of-arkansas/featured.jpg" }
             ) {
                 childImageSharp {
                     fluid {
@@ -32,7 +32,7 @@ function ProjectsNew() {
                     }
                 }
             }
-            hunt: file(relativePath: { eq: "hunt-ventures/featured.png" }) {
+            hunt: file(relativePath: { eq: "hunt-ventures/featured.jpg" }) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid

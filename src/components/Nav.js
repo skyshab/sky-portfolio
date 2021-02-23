@@ -41,7 +41,7 @@ const Nav = () => {
                 <li>
                     <a
                         href='https://github.com/skyshab'
-                        className='text-white w-6'
+                        className='text-white w-4'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
