@@ -45,6 +45,7 @@ const Contact = () => {
 
                     <div className='flex flex-col md:flex-row'>
                         <div className='mb-10 w-1/2 mr-10 w-full'>
+                            <label for="email" className="sr-only">Email</label>
                             <input
                                 type='email'
                                 name='email'
@@ -53,6 +54,7 @@ const Contact = () => {
                             />
                         </div>
                         <div className='mb-10 w-1/2 w-full'>
+                            <label for="name" className="sr-only">Name</label>
                             <input
                                 type='text'
                                 name='name'
@@ -63,6 +65,7 @@ const Contact = () => {
                     </div>
 
                     <div>
+                        <label for="message" className="sr-only">Message</label>
                         <textarea
                             className='w-full p-2'
                             rows='6'

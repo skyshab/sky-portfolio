@@ -55,6 +55,7 @@ function ProjectsNew() {
                             fluid={data.supplypike.childImageSharp.fluid}
                             className='supplypike project-image'
                             style={{ position: 'relative' }}
+                            alt="supplypike"
                         />
                     </Link>
 
@@ -66,6 +67,7 @@ function ProjectsNew() {
                             fluid={data.apa.childImageSharp.fluid}
                             className='apa project-image'
                             style={{ position: 'relative' }}
+                            alt="apa"
                         />
                     </Link>
 
@@ -77,6 +79,7 @@ function ProjectsNew() {
                             fluid={data.uofa.childImageSharp.fluid}
                             className='uofa project-image'
                             style={{ position: 'relative' }}
+                            alt="uofa"
                         />
                     </Link>
 
@@ -85,6 +88,7 @@ function ProjectsNew() {
                             fluid={data.hunt.childImageSharp.fluid}
                             className='hunt project-image'
                             style={{ position: 'relative' }}
+                            alt="hunt"
                         />
                     </Link>
                 </div>
