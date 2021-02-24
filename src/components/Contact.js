@@ -49,6 +49,7 @@ const Contact = () => {
                             <input
                                 type='email'
                                 name='email'
+                                id='email'
                                 placeholder='Email'
                                 className='w-full p-2'
                             />
@@ -58,6 +59,7 @@ const Contact = () => {
                             <input
                                 type='text'
                                 name='name'
+                                id='name'
                                 placeholder='Name'
                                 className='w-full p-2'
                             />
@@ -70,6 +72,7 @@ const Contact = () => {
                             className='w-full p-2'
                             rows='6'
                             name='message'
+                            id='message'
                             placeholder='Your message'
                         />
                     </div>
