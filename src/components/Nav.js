@@ -45,7 +45,7 @@ const Nav = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        <Icon className='w-full h-full fill-current' />
+                        <Icon className='fill-current' />
                     </a>
                 </li>
             </ul>
